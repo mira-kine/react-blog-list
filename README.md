@@ -52,3 +52,7 @@ It will end up looking like this:
 - The blogs table has a foreign key relationship to a table called authors -- what this means is each author_id on the blogs table matches up with the id of an author
 - Read [this](https://supabase.com/docs/reference/javascript/select#query-foreign-tables) documentation on querying foreign tables and see if you can include the author's name in your call to supabase
 - Update the BlogCard to include the author's name (you'll need to update the snapshot test when you're done)
+
+### Notable Lecture notes
+
+-
