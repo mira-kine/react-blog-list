@@ -8,5 +8,6 @@
 * App.js
   - need to add `blogs` state
   - need useEffect to call `getBlogs` when the page initially renders
+  - set the response from `getBlogs` as your `blogs` state
   - console.log to make sure my supabase call is working
   - once supabase call is working, loop through the `blogs` state variable and render a `<BlogCard>` component for each item in blogs (like what we did last week to render)
